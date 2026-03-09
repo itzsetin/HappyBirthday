@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const birthdayDate = new Date('March 9, 2026 00:00:00').getTime();
 
     // CUSTOMIZE: Change this greeting message
-    const greetingText = "Hey [NAME]! You're one of the most amazing people I've ever known! 💖";
+    const greetingText = "Hey Mariah! You're one of the most amazing people I've ever known! 💖";
 
     // CUSTOMIZE: Change floating elements if desired
     const floatingElements = ['💖', '✨', '🌸', '💫', '💕'];
@@ -201,4 +201,5 @@ document.addEventListener('DOMContentLoaded', function() {
     updateCountdown();
     setInterval(updateCountdown, 1000);
 });
+
 
